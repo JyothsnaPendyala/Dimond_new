@@ -9,7 +9,7 @@ pipeline{
         }
         stage("build"){
             steps{
-                 git branch: 'main', url: 'https://github.com/Vamsi-Cloudangles/Dimond_new.git''
+                 git branch: 'main', url: 'https://github.com/Vamsi-Cloudangles/Dimond_new.git'
             }
         }
         stage("load_data"){
